@@ -18,6 +18,8 @@
 		D7F2110A2BAC97E500A54EA6 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F211092BAC97E500A54EA6 /* Cell.swift */; };
 		D7F2110C2BAE75F700A54EA6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F2110B2BAE75F700A54EA6 /* Model.swift */; };
 		D7F2110F2BAE7C1500A54EA6 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F2110E2BAE7C1500A54EA6 /* BookViewController.swift */; };
+		D7F211122BB0248200A54EA6 /* CompositionalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F211112BB0248200A54EA6 /* CompositionalCell.swift */; };
+		D7F211142BB0249000A54EA6 /* CompositionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F211132BB0249000A54EA6 /* CompositionalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		D7F211092BAC97E500A54EA6 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		D7F2110B2BAE75F700A54EA6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		D7F2110E2BAE7C1500A54EA6 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		D7F211112BB0248200A54EA6 /* CompositionalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalCell.swift; sourceTree = "<group>"; };
+		D7F211132BB0249000A54EA6 /* CompositionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 		D7F211002BAC857E00A54EA6 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				D7F211102BB0244500A54EA6 /* CompositionalLayout */,
 				D7F210EF2BA98B8E00A54EA6 /* ViewController.swift */,
 				D7F211072BAC8A1600A54EA6 /* FlowLayoutCell.swift */,
 				D7F2110D2BAE7BF200A54EA6 /* Books */,
@@ -110,6 +115,15 @@
 				D7F2110E2BAE7C1500A54EA6 /* BookViewController.swift */,
 			);
 			path = Books;
+			sourceTree = "<group>";
+		};
+		D7F211102BB0244500A54EA6 /* CompositionalLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D7F211112BB0248200A54EA6 /* CompositionalCell.swift */,
+				D7F211132BB0249000A54EA6 /* CompositionalView.swift */,
+			);
+			path = CompositionalLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,9 +203,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F211142BB0249000A54EA6 /* CompositionalView.swift in Sources */,
 				D7F210F02BA98B8E00A54EA6 /* ViewController.swift in Sources */,
 				D7F211082BAC8A1600A54EA6 /* FlowLayoutCell.swift in Sources */,
 				D7F2110A2BAC97E500A54EA6 /* Cell.swift in Sources */,
+				D7F211122BB0248200A54EA6 /* CompositionalCell.swift in Sources */,
 				D7F2110F2BAE7C1500A54EA6 /* BookViewController.swift in Sources */,
 				D7F2110C2BAE75F700A54EA6 /* Model.swift in Sources */,
 				D7F210EC2BA98B8E00A54EA6 /* AppDelegate.swift in Sources */,
